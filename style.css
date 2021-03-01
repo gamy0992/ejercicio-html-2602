@@ -1,75 +1,92 @@
 .header {
-  background: #ec7870ef;
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  font-size: 30px;
+  background-color: #ec7870ef;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 150%;
   text-align: center;
-  border: 3px solid #555;
+  border: 0.2rem solid #555;
+}
+.header::after{
+    content: "<Header>";
 }
 
 .nav{
-  background: #54c1f3ef;
-  color: rgb(0, 0, 0);
-  padding: 40px;
-  font-size: 70px;
+  background-color: #54c1f3ef;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 150%;
   text-align: center;
-  border: 3px solid #555;
+  border: 0.2rem solid #555;
 }
-
-.dec{
-    text-decoration:none;
-    color: rgb(0, 0, 0);
+.nav::after{
+    content: "<Nav>";
 }
 
 .section{
-    background: #ece470ef;
-    color: rgb(0, 0, 0);
-    border: 2px solid #555;
-    font-size: 15px;
+    background-color: #ece470ef;
+    font-size: 150%;
     font-weight: bold;
     text-align: center;
-    width: 930px; 
-    height: 280px;
+    border: 0.2rem solid #555;
+    width: 75vw; 
+    height: 5vh;
+    
+}
+.section::after{
+    content: "<Section>";
 }
 .heading{
-    background: #ec7870ef;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+    background-color: #ec7870ef;
+    font-size: 150%;
     font-weight: bold;
     text-align: center; 
-    border: 3px solid #555;
-    width: 920px; 
-    height: 50px;
+    border: 0.2rem solid #555;
+    width: 73vw; 
+    height: 5vh;
+}
+.heading::after{
+    content: "Heading";
 }
 
-aside{
-    width: 310px; 
-    height: 280px; 
-    border: 3px solid #555;
-    float: right;
+aside{ 
+    background-color: rgb(161, 154, 154);
+    font-size: 150%;
+    font-weight: bold;
     text-align: center;
-    line-height: 200px;
-    background-color: rgba(187, 178, 178, 0.774);
+    border: 0.2rem solid #555;
+    line-height: 40vh;
+    float: right;
+    width: 25vw; 
+    height: 45.5vh;
+}
+aside::after{
+    content: "<Aside>";  
 }
 
 .article{
-    background: #cc60beef;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 30px;
+    background-color: #cc60beef;
+    padding: 0.6rem;
+    font-size: 150%;
     font-weight: bold;
     text-align: center;
-    border: 3px solid #555;
-    width: 900px; 
-    height: 120px;
+    border: 0.2rem solid #555;
+    line-height: 30vh;
+    width: 71.3vw; 
+    height: 30vh;
+}
+.article::after{
+    content: "<Article>";
 }
 
 .footer{
-    background: #e9ae55ef;
+    background-color: #e9ae55ef;
     color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 30px;
+    padding: 1rem;
+    font-size: 150%;
     font-weight: bold;
     text-align: center; 
-    border: 3px solid #555; 
+    border: 0.2rem solid #555; 
+}
+.footer::after{
+    content: "<Footer>";
 }
